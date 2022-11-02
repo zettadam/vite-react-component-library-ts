@@ -1,0 +1,114 @@
+/* --------------------------------- Buttons -------------------------------- */
+@layer component {
+  .btn {
+    align-items: center;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: var(--radius-3);
+    display: flex;
+    font-weight: var(--font-weight-semibold);
+    gap: 0.5rem;
+  }
+
+  .btn:active,
+  .btn:focus {
+    outline-offset: 1px;
+  }
+
+  /* ---------------------------------- Sizes --------------------------------- */
+  .btn--xl {
+    font-size: var(--text-size-4);
+    padding: 1.5rem 3rem;
+    & svg {
+      height: 48px;
+      width: 48px;
+    }
+  }
+  .btn--lg {
+    font-size: var(--text-size-3);
+    padding: 1rem 2rem;
+  }
+  .btn--md {
+    font-size: var(--text-size-1);
+    padding: 0.5rem 1rem;
+  }
+  .btn--sm {
+    font-size: var(--text-size-01);
+    padding: 0.25rem 0.5rem;
+  }
+  .btn--xs {
+    font-size: var(--text-size-02);
+    padding: 0.15rem 0.25rem;
+  }
+
+  /* -------------------------------- Variants -------------------------------- */
+
+  .btn--primary {
+    background-color: var(--blue-4);
+    border-color: var(--blue-4);
+    color: var(--white);
+  }
+  .btn--primary:hover {
+    background-color: var(--blue-3);
+    border-color: var(--blue-3);
+  }
+  .btn--primary:active {
+    background-color: var(--blue-3);
+    border-color: var(--blue-3);
+  }
+  .btn--primary:focus {
+    background-color: var(--blue-3);
+    border-color: var(--blue-3);
+  }
+  .btn--primary:active,
+  .btn--primary:focus {
+    outline: 2px solid var(--blue-4);
+  }
+  .btn--secondary {
+    background-color: var(--blue-7);
+    border-color: var(--blue-7);
+    color: var(--blue-1);
+  }
+  .btn--secondary:hover {
+    background-color: var(--blue-6);
+    border-color: var(--blue-6);
+    color: var(--blue-1);
+  }
+  .btn--secondary:active,
+  .btn--secondary:focus {
+    outline: 2px solid var(--blue-4);
+  }
+
+  .btn--tertiary {
+    background-color: var(--white);
+    border-color: var(--blue-4);
+    color: var(--blue-4);
+  }
+
+  .btn--ghost {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--blue-4);
+  }
+  .btn--tertiary:active,
+  .btn--tertiary:focus,
+  .btn--ghost:active,
+  .btn--ghost:focus {
+    outline: 2px solid var(--blue-4);
+  }
+
+  .btn--danger {
+    background-color: var(--red-4);
+    border-color: var(--red-4);
+    color: var(--white);
+  }
+  .btn--danger:hover {
+    background-color: var(--red-3);
+    border-color: var(--red-3);
+  }
+  .btn--danger:active,
+  .btn--danger:focus {
+    outline: 2px solid var(--blue-4);
+  }
+}

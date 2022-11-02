@@ -1,0 +1,148 @@
+:where(html) {
+  /* ----------------------------- Primary palette ---------------------------- */
+  --black: hsl(0 0% 0%);
+  --white: hsl(0 0% 100%);
+  --blue-0: hsl(229 82% 13%);
+  --blue-1: hsl(221 71% 20%);
+  --blue-2: hsl(221 71% 30%);
+  --blue-3: hsl(221 71% 45%);
+  --blue-4: hsl(221 89% 55%);
+  --blue-5: hsl(221 87% 67%);
+  --blue-6: hsl(221 87% 82%);
+  --blue-7: hsl(221 83% 91%);
+  --blue-8: hsl(222 76% 97%);
+  --blue-9: hsl(223 78% 98%);
+
+  /* ---------------------------- Semantic palette ---------------------------- */
+  --green-0: hsl(153 63% 13%);
+  --green-1: hsl(153 62% 17%);
+  --green-2: hsl(153 63% 25%);
+  --green-3: hsl(153 62% 37%);
+  --green-4: hsl(153 62% 47%);
+  --green-5: hsl(153 53% 56%);
+  --green-6: hsl(153 53% 71%);
+  --green-7: hsl(153 53% 85%);
+  --green-8: hsl(152 52% 95%);
+  --green-9: hsl(154 54% 97%);
+
+  --yellow-0: hsl(40 100% 14%);
+  --yellow-1: hsl(40 100% 18%);
+  --yellow-2: hsl(40 100% 27%);
+  --yellow-3: hsl(40 100% 41%);
+  --yellow-4: hsl(40 100% 50%);
+  --yellow-5: hsl(40 100% 59%);
+  --yellow-6: hsl(40 100% 73%);
+  --yellow-7: hsl(40 100% 86%);
+  --yellow-8: hsl(39 100% 95%);
+  --yellow-9: hsl(40 100% 98%);
+
+  --orange-0: hsl(27 82% 15%);
+  --orange-1: hsl(27 82% 20%);
+  --orange-2: hsl(27 83% 30%);
+  --orange-3: hsl(27 83% 45%);
+  --orange-4: hsl(27 100% 55%);
+  --orange-5: hsl(30 90% 61%);
+  --orange-6: hsl(27 100% 75%);
+  --orange-7: hsl(28 100% 88%);
+  --orange-8: hsl(29 100% 96%);
+  --orange-9: hsl(27 100% 98%);
+
+  --red-0: hsl(12 63% 16%);
+  --red-1: hsl(11 63% 21%);
+  --red-2: hsl(11 62% 32%);
+  --red-3: hsl(11 63% 48%);
+  --red-4: hsl(11 90% 59%);
+  --red-5: hsl(12 91% 66%);
+  --red-6: hsl(12 91% 78%);
+  --red-7: hsl(12 89% 89%);
+  --red-8: hsl(11 89% 96%);
+  --red-9: hsl(8 80% 98%);
+
+  /* ---------------------------- Supporting colors --------------------------- */
+
+  --turquoise-0: hsl(189 65% 15%);
+  --turquoise-1: hsl(189 64% 19%);
+  --turquoise-2: hsl(188 64% 29%);
+  --turquoise-3: hsl(188 64% 44%);
+  --turquoise-4: hsl(188 72% 53%);
+  --turquoise-5: hsl(188 72% 62%);
+  --turquoise-6: hsl(188 72% 75%);
+  --turquoise-7: hsl(189 72% 87%);
+  --turquoise-8: hsl(188 73% 96%);
+  --turquoise-9: hsl(188 67% 98%);
+
+  --pink-0: hsl(331 57% 15%);
+  --pink-1: hsl(331 56% 21%);
+  --pink-2: hsl(330 57% 31%);
+  --pink-3: hsl(330 57% 46%);
+  --pink-4: hsl(330 74% 56%);
+  --pink-5: hsl(330 74% 64%);
+  --pink-6: hsl(330 74% 76%);
+  --pink-7: hsl(329 74% 88%);
+  --pink-8: hsl(328 71% 96%);
+  --pink-9: hsl(326 64% 98%);
+
+  --teal-0: hsl(169 76% 13%);
+  --teal-1: hsl(169 75% 17%);
+  --teal-2: hsl(169 76% 26%);
+  --teal-3: hsl(169 75% 39%);
+  --teal-4: hsl(169 75% 47%);
+  --teal-5: hsl(169 68% 57%);
+  --teal-6: hsl(169 68% 71%);
+  --teal-7: hsl(169 67% 86%);
+  --teal-8: hsl(169 67% 95%);
+  --teal-9: hsl(165 67% 98%);
+
+  --purple-0: hsl(245 48% 14%);
+  --purple-1: hsl(245 48% 18%);
+  --purple-2: hsl(245 49% 27%);
+  --purple-3: hsl(245 49% 40%);
+  --purple-4: hsl(245 48% 49%);
+  --purple-5: hsl(245 47% 59%);
+  --purple-6: hsl(245 48% 72%);
+  --purple-7: hsl(245 46% 86%);
+  --purple-8: hsl(250 50% 98%);
+  --purple-9: hsl(245 48% 95%);
+
+  --lime-0: hsl(73 76% 12%);
+  --lime-1: hsl(73 75% 15%);
+  --lime-2: hsl(72 75% 23%);
+  --lime-3: hsl(73 75% 35%);
+  --lime-4: hsl(73 75% 42%);
+  --lime-5: hsl(73 55% 53%);
+  --lime-6: hsl(73 55% 69%);
+  --lime-7: hsl(72 55% 84%);
+  --lime-8: hsl(72 56% 95%);
+  --lime-9: hsl(75 57% 97%);
+
+  /* ----------------------------- Neutral colors ----------------------------- */
+
+  --neutral-0: hsl(200 11% 11%);
+  --neutral-1: hsl(203 11% 14%);
+  --neutral-2: hsl(202 10% 21%);
+  --neutral-3: hsl(205 10% 32%);
+  --neutral-4: hsl(203 11% 39%);
+  --neutral-5: hsl(201 7% 50%);
+  --neutral-6: hsl(200 7% 67%);
+  --neutral-7: hsl(204 6% 83%);
+  --neutral-8: hsl(210 5% 93%);
+  --neutral-9: hsl(0 0% 97%);
+
+  --form-input--color--normal: var(--neutral-1);
+  --form-input--bd-color--normal: var(--neutral-7);
+  --form-input--bd-color--hover: var(--neutral-5);
+  --form-input--bd-color--focus: var(--blue-4);
+  --form-input--bd-color--disabled: var(--neutral-9);
+  --form-input--bg-color--normal: var(--white);
+  --form-input--bg-color--hover: var(--white);
+  --form-input--bg-color--focus: var(--white);
+  --form-option--bg-color--hover: var(--neutral-9);
+  --form-option--bg-color--active: var(--neutral-5);
+  --form-option--bg-color--focus: var(--blue-4);
+  --form-option--color--normal: var(--neutral-1);
+  --form-option--color--focus: var(--white);
+  --form-label--color: var(--neutral-3);
+  --form-placeholder--color: var(--neutral-7);
+  --form-helper-text--color: var(--neutral-6);
+  --form-outline--color: var(--blue-4);
+}

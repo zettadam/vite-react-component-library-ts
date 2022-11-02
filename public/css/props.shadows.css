@@ -1,0 +1,25 @@
+:where(html) {
+  --shadow--color-16: hsla(0 0% 0% / 0.16);
+  --shadow--skim-16: 0 1px 8px var(--shadow--color-16);
+  --shadow--lifted-16: 0 2px 16px var(--shadow--color-16);
+  --shadow--raised-16: 0 3px 24px var(--shadow--color-16);
+  --shadow--floating-16: 0 4px 32px var(--shadow--color-16);
+
+  --shadow--color-08: hsla(0 0% 0% / 0.08);
+  --shadow--skim-08: 0 1px 8px var(--shadow--color-08);
+  --shadow--lifted-08: 0 2px 16px var(--shadow--color-08);
+  --shadow--raised-08: 0 3px 24px var(--shadow--color-08);
+  --shadow--floating-08: 0 4px 32px var(--shadow--color-08);
+
+  --shadow--color-06: hsla(0 0% 0% / 0.06);
+  --shadow--skim-06: 0 1px 8px var(--shadow--color-06);
+  --shadow--lifted-06: 0 2px 16px var(--shadow--color-06);
+  --shadow--raised-06: 0 3px 24px var(--shadow--color-06);
+  --shadow--floating-06: 0 4px 32px var(--shadow--color-06);
+
+  --shadow--color-04: hsla(0 0% 0% / 0.04);
+  --shadow--skim-04: 0 1px 8px var(--shadow--color-04);
+  --shadow--lifted-04: 0 2px 16px var(--shadow--color-04);
+  --shadow--raised-04: 0 3px 24px var(--shadow--color-04);
+  --shadow--floating-04: 0 4px 32px var(--shadow--color-04);
+}

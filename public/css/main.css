@@ -1,0 +1,117 @@
+@import './font-families.css';
+
+@import './props.color.css';
+@import './props.borders.css';
+@import './props.shadows.css';
+@import './props.layout.css';
+@import './props.text.css';
+@import './props.media.css';
+@import './props.animations.css';
+
+@import './animations.css';
+
+@custom-media --motionOK (prefers-reduced-motion: no-preference);
+
+/* --------------------------------- LAYERS --------------------------------- */
+@layer reset;
+@layer element;
+@layer third-party;
+@layer component;
+@layer utility;
+@layer override;
+
+/* ------------------------------ End of layers ----------------------------- */
+
+@layer reset {
+  * {
+    box-sizing: border-box;
+  }
+  button {
+    -webkit-appearance: none;
+    border-radius: 0;
+    text-align: inherit;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    color: inherit;
+    font: inherit;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@layer element {
+  * {
+    font-family: var(--font-family-text);
+  }
+
+  body {
+    text-size-adjust: 100%;
+  }
+
+  input,
+  select,
+  button {
+    font-size: var(--text-size-md);
+    line-height: 1;
+  }
+
+  i,
+  em {
+    font-family: var(--font-family-text-italic);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-display);
+  }
+  h1 i,
+  h1 em,
+  h2 i,
+  h2 em,
+  h3 i,
+  h3 em,
+  h4 i,
+  h4 em,
+  h5 i,
+  h5 em,
+  h6 i,
+  h6 em {
+    font-family: var(--font-family-display-italic);
+  }
+
+  p {
+    margin: 0 0 1rem 0;
+  }
+  p:last-of-type {
+    margin: 0;
+  }
+
+  code {
+    font-family: var(--font-family-monospace);
+    font-size: var(--text-size-1);
+  }
+}
+
+[hidden],
+.visually-hidden {
+  height: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  width: 0;
+  border: 0;
+}
+
+/* -------------------------------- Animation ------------------------------- */
+.animate {
+  animation-duration: var(--animate-duration, 1s);
+  animation-delay: var(--animate-delay, 1s);
+  animation-repeat: var(--animate-repeat, 1);
+}

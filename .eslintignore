@@ -1,0 +1,13 @@
+*.scss
+*.css
+*.png
+*.jpg
+*.gif
+*.ico
+
+/node_modules
+/build
+/coverage
+/dist
+/reports
+/stories
